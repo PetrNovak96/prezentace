@@ -4,7 +4,9 @@ title:
 theme:
 - boxes
 ---
-[//]: # "pandoc input.md -t beamer -o output.pdf"
+[/]: # "rm output.pdf"
+[//]: # "pandoc poznamky.md -t beamer -o output.pdf"
+
 [///]: # "musíš mít nainstalovaný latex"
 
 # API
@@ -47,6 +49,7 @@ theme:
 * už je to trošku starší záležitost
 
 # Agile Toolkit
+
 * OOP PHP framework
 * [**odkaz**](https://github.com/atk4) na Github
 * [**odkaz**](https://www.agiletoolkit.org/) na jejich stránky
